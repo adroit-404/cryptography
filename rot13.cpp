@@ -12,10 +12,10 @@ void choices() //Prompts Options to the user
     int select;
     string option[] = {"1. Encode","2. Decode","3. Exit" };
     cout<<option[0]<<endl<<option[1]<<endl<<option[2]<<endl<<"Please Select an option: ";
-    cin>>select;
-    cin.ignore();
-    if(select == 1) encode();
-    if(select == 2) decode();
+      cin>>select;
+      cin.ignore();
+        if(select == 1) encode();
+        if(select == 2) decode();
   }
 
 int main()  // My Main function
@@ -53,6 +53,6 @@ void decode()  //Starts Decoding
         if(msg[i] >= char(65) && msg[i] <= char(77) || msg[i] >= char(97) && msg[i] <= char(109))
           cout << char(msg[i] - key);
         else if(msg[i] > char(77) && msg[i] <= char(90) || msg[i] > char(109) && msg[i] <= char(122))
-          cout<<char(msg[i] - key);
+          cout<< char(msg[i] + key);
       }
   }
