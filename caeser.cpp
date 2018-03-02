@@ -33,7 +33,7 @@ void encode()  //Starts Encoding
           if(msg[i] >= char(65) && msg[i] <= char(87) || msg[i] >= char(97) && msg[i] <= char(119))
             cout<< char(msg[i] + key);
           else if(msg[i] > char(86) && msg[i] <= char(90) || msg[i] > char(119) && msg[i] <= char(122))
-            cout<< char(msg[i] - key);
+            cout<< char(msg[i] - 23);
           else                                                //for special characters
             cout<<msg[i];
         }
