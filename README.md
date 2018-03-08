@@ -32,11 +32,11 @@ The encryption step performed by a Caesar cipher is often incorporated as part o
 
 ### ROTATE or Shift
 
-ROTATE is also a simple cipher like caesar cipher, the only difference in this rotate cipher is that the user has a speacial key, that key indicated the number of shifts the user wants to encrypt the message. For example if a user use a key = 13, then it will behave exactly like ROT13 cipher, and if a user enters 3, then it will behave exactly like caesar's cipher.
+ROTATE is also a simple cipher like Caesar Cipher, the only difference in this rotate cipher is that the user has a special key, that key indicated the number of shifts the user wants to encrypt the message. For example if a user use a key = 13, then it will behave exactly like ROT13 cipher, and if a user enters 3, then it will behave exactly like Caesar's cipher.
 ![Bank](https://github.com/naumanafsar/cryptography/blob/master/imgs/rotate.jpg)
 
 
 ### Affine Cipher
 
-The affine cipher is a type of monoalphabetic substitution cipher, wherein each letter in an alphabet is mapped to its numeric equivalent, encrypted using a simple mathematical function, and converted back to a letter. The formula used means that each letter encrypts to one other letter, and back again, meaning the cipher is essentially a standard substitution cipher with a rule governing which letter goes to which. As such, it has the weaknesses of all substitution ciphers. Each letter is enciphered with the function (ax + b) mod 26, where b is the magnitude of the shift.
+The affine cipher is a type of mono alphabetic substitution cipher, wherein each letter in an alphabet is mapped to its numeric equivalent, encrypted using a simple mathematical function, and converted back to a letter. The formula used means that each letter encrypts to one other letter, and back again, meaning the cipher is essentially a standard substitution cipher with a rule governing which letter goes to which. As such, it has the weaknesses of all substitution ciphers. Each letter is enciphered with the function (ax + b) mod 26, where b is the magnitude of the shift.
 [Read more about it](https://en.wikipedia.org/wiki/Affine_cipher)
